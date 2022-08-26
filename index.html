@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Javascript</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css design -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <img src="./images/main-logo.svg" alt="store logo">
+            <div class="cart-btn">
+                <span class="nav-icon">
+                   <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- hero -->
+      <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">
+                Star Collections
+            </h1>
+            <button class="banner-btn">Shop Now</button>
+        </div>
+      </header>
+    <!-- end of hero -->
+
+    <!-- Start Product -->
+    <section class="products">
+        <div class="section-title">
+            <h2>Our Collections</h2>
+        </div>
+        <div class="products-center">
+
+            <!-- cart -->
+            <div class="cart-overlay">
+                <div class="cart">
+                    <span class="close-cart">
+                        <i class="fas fa-window-close"></i> 
+                   </span>
+                   <h2>Your Cart</h2>
+                   <div class="cart-content">
+                    <!-- cart item -->
+                     <div class="cart-item">
+                        
+                     </div>
+                    <!-- end cart item -->
+                   </div>
+                   <div class="cart-footer">
+                     <h3>You Total : $ <span class="cart-total">0</span></h3>
+                     <span class="button clear-cart-btn">clear cart</span>
+                   </div>
+                </div>
+            </div>
+            <!-- cart -->
+
+        </div>
+    </section>
+    <!-- End Product -->
+    <script src="app.js"></script>
+</body>
+</html>
